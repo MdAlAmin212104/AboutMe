@@ -1,0 +1,89 @@
+
+/* coloum for destop */
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* navber-menu style starts */
+.navber-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0 auto;
+}
+.navber-menu a{
+    background-color: transparent;
+    margin: 30px auto;
+    padding:  5px;
+    
+
+}
+/* navber-menu style ends */
+
+/* profiles-desc start */
+.top-photo{
+   
+    right: 150px;
+    top: 20px;
+    transition: width 2s transform 2s;
+
+}
+.top-photo:hover{
+    width: 150px;
+    height: 150px;
+}
+
+.bottom-photo{
+   
+    left: 150px;
+    bottom: 20px;
+    transition: width 2s transform 2s;
+
+}
+.bottom-photo:hover{
+    width: 150px;
+    height: 150px;
+}
+
+/* profiles-desc ends */
+
+.profiles-desc h1{
+    font-size: 4.5rem;
+    font-family:'Satisfy','cursive';
+}
+
+
+.profile-img img{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.Aboutme-desc p{
+    text-align: left;
+
+}
+.h1{
+    font-size: 40px;
+    padding: 5px;
+}
+.work-img img{
+    height: 80px;
+}
+
+.profesonal-experience{
+    display: flex;
+    justify-content: center;
+
+}
+
